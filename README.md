@@ -69,7 +69,7 @@ If you encounter any issues or have suggestions, please:
 
 ## Credits
 
-Created with ❤️ by [Your Name]
+Build By Praik[https://pratik-me.onrender.com/]
 
 ---
 
