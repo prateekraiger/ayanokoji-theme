@@ -1,14 +1,36 @@
 {
   "name": "ayanokoji-theme",
   "displayName": "Ayanokoji Theme",
-  "description": "",
+  "description": "A beautiful and elegant dark theme inspired by the aesthetic of Kiyotaka Ayanokoji",
   "version": "0.0.1",
+  "publisher": "Pratik1107",
+  "private": false,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/ayanokoji-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/ayanokoji-theme/issues"
+  },
+  "homepage": "https://github.com/yourusername/ayanokoji-theme#readme",
   "engines": {
     "vscode": "^1.100.0"
   },
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "theme",
+    "dark",
+    "ayanokoji",
+    "color-theme"
+  ],
+  "icon": "./images/icon.png",
+  "galleryBanner": {
+    "color": "#1E1E1E",
+    "theme": "dark"
+  },
   "contributes": {
     "themes": [
       {
@@ -17,5 +39,17 @@
         "path": "./themes/Ayanokoji-color-theme.json"
       }
     ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "echo Compilation complete",
+    "watch": "echo Watch complete",
+    "pretest": "npm run compile",
+    "test": "echo Test complete"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.100.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
   }
 }
